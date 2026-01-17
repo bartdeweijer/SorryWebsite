@@ -15,17 +15,20 @@ Een moderne, responsieve landing page voor SorryDocent™ - gebouwd met React, T
 **Vereisten:** Node.js (versie 16 of hoger)
 
 1. Clone de repository:
+
    ```bash
    git clone https://github.com/bartdeweijer/SorryWebsite.git
    cd SorryWebsite
    ```
 
 2. Installeer dependencies:
+
    ```bash
    npm install
    ```
 
 3. Start de development server:
+
    ```bash
    npm run dev
    ```
@@ -68,4 +71,5 @@ Private project - © 2026
 ## 👤 Auteur
 
 **Bart de Weijer**
+
 - GitHub: [@bartdeweijer](https://github.com/bartdeweijer)
