@@ -1,20 +1,71 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# SorryDocent™ Landing Page
 
-# Run and deploy your AI Studio app
+Een moderne, responsieve landing page voor SorryDocent™ - gebouwd met React, TypeScript en Vite.
 
-This contains everything you need to run your app locally.
+## 🚀 Features
 
-View your app in AI Studio: https://ai.studio/apps/temp/1
+- ⚡ Snel en responsief met Vite
+- 🎨 Modern component-based design
+- 📱 Volledig responsive
+- 🔧 TypeScript voor type safety
+- ⚛️ React 19
 
-## Run Locally
+## 📦 Installatie
 
-**Prerequisites:**  Node.js
+**Vereisten:** Node.js (versie 16 of hoger)
 
+1. Clone de repository:
+   ```bash
+   git clone https://github.com/bartdeweijer/SorryWebsite.git
+   cd SorryWebsite
+   ```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+2. Installeer dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start de development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Open je browser op `http://localhost:5173`
+
+## 🛠️ Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build voor productie
+- `npm run preview` - Preview productie build
+
+## 📁 Structuur
+
+```
+SorryWebsite/
+├── components/         # React componenten
+│   ├── Hero.tsx       # Hero sectie
+│   ├── Features.tsx   # Features overzicht
+│   ├── HowItWorks.tsx # Hoe werkt het sectie
+│   ├── CTA.tsx        # Call-to-action
+│   ├── Navbar.tsx     # Navigatie
+│   └── Footer.tsx     # Footer
+├── App.tsx            # Hoofd App component
+├── index.tsx          # Entry point
+└── index.html         # HTML template
+```
+
+## 🎨 Tech Stack
+
+- React 19
+- TypeScript
+- Vite
+- CSS3
+
+## 📝 License
+
+Private project - © 2026
+
+## 👤 Auteur
+
+**Bart de Weijer**
+- GitHub: [@bartdeweijer](https://github.com/bartdeweijer)
